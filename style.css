@@ -1,0 +1,214 @@
+
+body
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+    overflow-x: hidden;
+}
+
+/* ---Navigation Bar--- */
+
+
+
+
+ul.dropdown-menu
+{
+    background:red;
+}
+ul.dropdown-menu li a
+{
+    color: white;
+}
+
+.hover:hover
+{
+    color: red !important;
+    transition: 0.20s;
+}
+ul.dropdown-menu li a:hover
+{
+    color: black;
+    background: red;
+    transition: 1.10s;
+}
+
+
+
+/* --- Second Page --- */
+.secondpage
+{
+    background: rgb(240, 145, 48);
+    display: flex;
+    height: 905px;
+    align-items: center;
+}
+.leef
+{
+    width: 136px;
+    height: 372px;
+
+}
+h1.text-white
+{
+    font-family: "EksellDisplayWeb-Small";
+    position: absolute;
+    top: center;
+    left: 18vw;
+    text-align: center;
+    font-size: 80px!;
+    font-weight: 900;
+    z-index: 1;
+
+}
+
+
+/* --- Media Query --- */
+@media(max-width: 992px)
+{
+    .leef
+    {
+        width: 90px;
+        height: 200px;
+    }
+    h1.text-white
+    {
+        left: 36vw;
+    }
+
+}
+@media(max-width: 576px)
+{
+    .secondpage
+    {
+        height: 400px;
+    }
+    .leef
+    {
+        width: 50px;
+        height: 150px;
+    }
+
+}
+
+
+
+
+/* --- Divaiding Page --- */
+.para
+{
+    padding: 30px;
+    font-size: 24px;
+    font-family: "merivaregular";
+}
+.logoimg
+{
+    width: 200px;
+    height: 52px;
+    display: flex;
+    margin-top: 20px;
+    justify-content: space-between;
+}
+.logoimg img
+{
+    width: 20px;
+    height: 20px;
+    text-decoration: none;
+}
+.logoimg a
+{
+    color: black;
+}
+
+
+/* --- hover --- */
+.logoimg img:hover
+{
+    width: 25px;
+    height: 25px;
+    transition: 0.4ms;
+    transform-style: preserve-3d;
+}
+
+
+
+/* --- Media Query --- */
+@media(max-width: 1200px)
+{
+    .para
+    {
+        font-size: 20px;
+    }
+}
+@media(max-width:576px)
+{
+    .para
+    {
+        font-size: 20px;
+        padding: 50px;
+    }
+}
+
+
+
+
+
+/* --- Footer --- */
+
+
+.foot
+{
+    font-weight: bold;
+    line-height: 2.5vw;
+}
+
+.footnav
+{
+    width: 200px;
+    height: 52px;
+    display: flex;
+    margin-top: 20px;
+    justify-content: space-between;
+}
+.footnav img
+{
+    width: 20px;
+    height: 20px;
+}
+.footnav a
+{
+    color: black;
+}
+address a
+{
+    color: black;
+    text-decoration: none;
+    
+}
+address span
+{
+    color: black;
+    font-weight: bold;
+}
+
+
+/* --hover-- */
+
+
+.footnav img:hover
+{
+    width: 25px;
+    height: 25px;
+    transition: 0.4ms;
+    transform-style: preserve-3d;
+}
+address span:hover
+{
+    color: red;
+    transition: 0.3s;
+}
+.foot:hover
+{
+    color: red;
+    text-decoration: underline;
+}
